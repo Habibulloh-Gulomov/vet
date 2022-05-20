@@ -694,8 +694,8 @@ img {
   width: 148px;
   height: 78px;
   position: absolute;
-  top: 15px;
-  left: 230px;
+  top: 20px;
+  left: calc( 50% - 495px);
   background-image: url(../../img/quoteleft.png);
   background-repeat: no-repeat;
   background-size: 90px 50px;
@@ -707,7 +707,7 @@ img {
   width: 148px;
   height: 78px;
   position: absolute;
-  right: 180px;
+  right: calc(50% - 540px);
   top: 80px;
   background-image: url(../../img/quoteright.png);
   background-repeat: no-repeat;
@@ -1258,7 +1258,7 @@ img {
   font-weight: 700;
   font-size: 48px;
   line-height: 62px;
-  color: #FFFFFF;
+  color: #ffffff;
 }
 
 .bottom__text {
@@ -1266,6 +1266,11 @@ img {
   font-size: 16px;
   line-height: 20px;
   color: #949494;
+}
+
+.bottom__iframe {
+  width: 100%;
+  max-width: 462px;
 }
 
 .bottom__form {
@@ -1285,43 +1290,33 @@ img {
   height: 50px;
   border: none;
   background-color: #fff;
-  background: #FFFFFF;
+  background: #ffffff;
   border-radius: 0px;
   font-weight: 400;
   font-size: 16px;
   line-height: 21px;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
 }
 
 .bottom__area {
+  width: 100%;
+  max-width: 375px;
   margin-bottom: 30px;
   padding: 17px 0 0 22px;
   resize: none;
   font-weight: 400;
   font-size: 16px;
   line-height: 21px;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
 }
 
 .bottom__button {
   width: 266px;
   padding: 15px 49px;
-  background: #FFBD54;
+  background: #ffbd54;
   border-radius: 0px;
   font-weight: 500;
   font-size: 16px;
   line-height: 21px;
-  color: #FFFFFF;
+  color: #ffffff;
   border: none;
 }
 

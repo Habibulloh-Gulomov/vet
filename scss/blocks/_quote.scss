@@ -7,8 +7,8 @@
     width: 148px;
     height: 78px;
     position: absolute;
-    top: 15px;
-    left: 230px;
+    top: 20px;
+    left: calc( 50% - 495px);
     background-image: url(../../img/quoteleft.png);
     background-repeat: no-repeat;
     background-size: 90px 50px;
@@ -20,7 +20,7 @@
     width: 148px;
     height: 78px;
     position: absolute;
-    right: 180px;
+    right: calc(50% - 540px);
     top: 80px;
     background-image: url(../../img/quoteright.png);
     background-repeat: no-repeat;
