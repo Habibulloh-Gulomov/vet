@@ -1,0 +1,83 @@
+.bottom{
+  margin-bottom: 244px;
+}
+
+.bottom__inner{
+  display: flex;
+}
+
+.bottom__right{
+  width: 100%;
+  padding: 58px 0 69px 165px;
+  background: #333333;
+  background-image: url(../../img/bottombg.png);
+  background-repeat: no-repeat;
+  background-size: 986px 624px;
+}
+
+.bottom__tite{
+  margin: 0 0 14px;
+  font-weight: 700;
+  font-size: 48px;
+  line-height: 62px;
+  color: #FFFFFF; 
+}
+
+.bottom__text{
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 20px;
+  color: #949494;    
+}
+
+.bottom__form{
+  display: flex;
+  flex-direction: column;
+}
+
+.bottom__input{
+  margin-bottom: 14px;
+  padding-left: 22px;
+  width: 375px;
+  height: 50px;
+  border: none;
+  background-color: #fff;
+  background: #FFFFFF;
+  border-radius: 0px;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 21px;
+  display: flex;
+  align-items: center;
+}
+
+.bottom__area{
+  margin-bottom: 30px;
+  padding: 17px 0 0 22px;
+  resize: none;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 21px;
+  display: flex;
+  align-items: center;
+}
+
+.bottom__button{
+  width: 266px;
+  padding: 15px 49px;
+  background: #FFBD54;
+  border-radius: 0px;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 21px;
+  color: #FFFFFF;
+  border: none;
+}
+
+.bottom__button:hover{
+  opacity: 0.8;
+}
+
+.bottom__button:active{
+  opacity: 0.6;
+}

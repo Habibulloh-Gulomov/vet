@@ -1,0 +1,134 @@
+.care{
+  margin-bottom: 265px;
+}
+
+.care__title{
+  margin: 0 0  80px;
+  font-weight: 700;
+  font-size: 48px;
+  line-height: 20px;
+  color: #333333;
+  text-align: center;
+}
+
+.care__list{
+  display: flex;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.care__item{
+  width: 305px;
+  margin: 0;
+  border: 1px solid #E4E4E2;
+  border-top: none;
+  border-radius: 5px;
+  background-color: #fff;
+  z-index: 1;
+}
+
+.item__content{
+  width: 295px;
+  padding:21px 25px 37px 30px;
+}
+
+.item__day{
+  display: block;
+  margin-left: 185px;
+  margin-bottom: 2px;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 18px;
+  color: #949494;
+}
+
+.item__title{
+  margin: 0 0 10px;
+  font-weight: 700;
+  font-size: 22px;
+  line-height: 25px;
+  color: #000000;
+}
+
+.item__text{
+  margin: 0 0 37px;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 20px;
+  color: #949494;
+}
+
+.item__link{
+  position: relative;
+  padding-left: 28px;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 21px;
+  color: #333333;
+  text-decoration: none;
+  background-image: url(../../img/panja.svg);
+  background-repeat: no-repeat;
+  background-size: 23px 20px;
+  background-position: left;
+  z-index: 2;
+}
+
+.item__link::before {
+  display: block;
+  width: 100%;
+  height: 0px;
+  position: absolute;
+  right: 0;
+  bottom: 2px;
+  left: 0;
+  background-color: yellow;
+  z-index: -1;
+  opacity: 0.5;
+  content: '';
+}
+
+.item__link:hover::before{
+  height: 30%;
+}
+
+.item__link:active{
+  opacity:0.6;
+}
+
+.list__middle{
+  display: flex;
+  margin: 0 24px;
+}
+
+.list__content{
+  width: 335px;
+  padding: 30px 35px 20px 31px;
+  background-color: #fff;
+  border: 1px solid #F3F3F3;
+  border-radius: 5px;
+  border-left: none;
+}
+
+.list__title{
+  margin: 30px 0 15px;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 29px;
+  color: #333333;
+}
+
+.list__left__span{
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 22px;
+  color: #3D9CEA;
+  margin-right: 67px;
+}
+
+.list__right__span{
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 18px;
+  color: #949494;
+}

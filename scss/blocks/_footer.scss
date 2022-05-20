@@ -1,0 +1,146 @@
+.footer{
+  padding: 57px 0 23px 0;
+  background-color: #F3F3F3;
+  border: 1px solid #EBEBEB;
+}
+
+.footer__list{
+  display: flex;
+  margin: 0 0  28px;
+  padding: 0;
+  list-style: none;
+}
+
+.footer__item{
+  display: flex;
+  flex-direction: column;
+  margin: 0;
+  padding: 0;
+}
+
+.footer__item:nth-child(2){
+  margin-right: 87px;
+  margin-left: 67px;
+}
+
+.footer__item:nth-child(4){
+  margin-right: 112px;
+  margin-left: 127px;
+}
+
+.footer__logo:hover{
+  opacity: 0.8;
+}
+
+.footer__logo:active{
+  opacity: 0.6;
+}
+
+.footer__item:nth-child(6){
+  margin-left:auto;
+}
+
+.footer__link{
+  position: relative;
+  z-index: 2;
+  text-decoration: none;
+  margin-bottom: 14px;
+  font-size: 16px;
+  line-height: 21px;
+  color: #333333;
+}
+
+.footer__link::before{
+  display:block;
+  z-index: -1;
+  width: auto;
+  height: 0;
+  position: absolute;
+  right: 0;
+  bottom: 4px;
+  left: 0;
+  background-color: yellow;
+  opacity: 0.5;
+  content: '';
+}
+
+.footer__link:hover::before{
+  height: 30%;
+}
+
+.footer__link:active{
+  opacity: 0.6;
+}
+
+.footer__link--last{
+  margin-bottom: 0;
+}
+
+.footer__item--calendar{
+  padding-left: 26px;
+  background-image: url(../../img/calendar.svg);
+  background-repeat: no-repeat;
+  background-size:16px 16px ;
+  background-position: left top 2px;
+}
+
+.footer__clock{
+  margin: 0;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 18px;
+  align-items: center;
+  color: #333333;
+  margin-bottom: 3px;
+}
+
+.footer__adress{
+  width: 159px;
+  padding-left: 26px;
+  background-image: url(../../img/home.svg);
+  background-repeat: no-repeat;
+  background-size:16px 16px ;
+  background-position: left top 2px;
+  font-weight: 500;
+  font-size: 14px;
+  font-style: normal;
+  line-height: 18px;
+  color: #333333;
+}
+
+.footer__call{
+  display: flex;
+  flex-direction: column;
+  padding-left: 26px;
+  background-image: url(../../img/phone.svg);
+  background-repeat: no-repeat;
+  background-size:16px 16px ;
+  background-position: left top 2px;
+}
+
+.footer__number{
+  margin:0 0 4px;
+  text-decoration: none;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 18px;
+  color: #333333;
+}
+
+.footer__number:hover{
+  color: #FFBD54;
+}
+
+.footer__number:active{
+  opacity: 0.6;
+}
+
+.footer__text{
+  margin: 0;
+  text-align: left;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 18px;
+  text-align: right;
+  color: #5C5C5C;
+}

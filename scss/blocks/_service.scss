@@ -1,0 +1,270 @@
+.service{
+  margin-bottom: 235px;
+}
+
+.service__inner{
+  position: relative;
+}
+
+.service__title{
+  margin: 0 0 80px;
+  font-weight: 700;
+  font-size: 48px;
+  line-height: 54px;
+  color: #333333;
+  text-align: center;
+}
+
+.service__list{
+  display: flex;
+  justify-content: center;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  margin-bottom: 14px;
+}
+
+.service__item{
+  position: relative;
+  margin: 0;
+  margin-right: 13px;
+  padding: 129px 32px 28px 35px;
+  background-color: #fff;
+  text-align: center;
+  width: 193px;
+  border: 1px solid #F3F3F3;
+  border-radius: 5px;
+}
+
+.service__item:hover{
+  opacity: 0.8;
+}
+
+.service__item:active{
+  opacity: 0.6;
+}
+
+
+.service__item:nth-child(1){ 
+  &::before{
+    display: block;
+    width: 54px;
+    height: 77px;
+    position: absolute;
+    top: 30px;
+    left:40%;
+    background-image: url(../../img/doctor.png);
+    background-size: 54px 77px;
+    background-repeat: no-repeat;
+    content: '';
+  }
+}
+
+.service__item:nth-child(2){ 
+  &::before{
+    display: block;
+    width: 53px;
+    height: 77px;
+    position: absolute;
+    top: 30px;
+    left:65px;
+    background-image: url(../../img/girl.png);
+    background-size: 53px 76px;
+    background-repeat: no-repeat;
+    content: '';
+  }
+}
+
+.service__item:nth-child(3){ 
+  &::before{
+    display: block;
+    width: 72px;
+    height: 77px;
+    position: absolute;
+    top: 30px;
+    left:60px;
+    background-image: url(../../img/dog.png);
+    background-size: 72px 77px;
+    background-repeat: no-repeat;
+    content: '';
+  }
+}
+
+.service__item:nth-child(4){ 
+  &::before{
+    display: block;
+    width: 73px;
+    height: 73px;
+    position: absolute;
+    top: 30px;
+    left:52px;
+    background-image: url(../../img/zoom.png);
+    background-size: 73px 73px;
+    background-repeat: no-repeat;
+    content: '';
+  }
+}
+
+.service__item:nth-child(5){ 
+  &::before{
+    display: block;
+    width: 78px;
+    height: 78px;
+    position: absolute;
+    top: 30px;
+    left:57px;
+    background-image: url(../../img/labaratory.png);
+    background-size: 78px 78px;
+    background-repeat: no-repeat;
+    content: '';
+  }
+}
+
+.service__item:nth-child(6){ 
+  &::before{
+    display: block;
+    width: 70px;
+    height: 73px;
+    position: absolute;
+    top: 30px;
+    left:58px;
+    background-image: url(../../img/catdog.png);
+    background-size: 70px 73px;
+    background-repeat: no-repeat;
+    content: '';
+  }
+}
+
+.service__button{
+  width: 50px;
+  height: 50px;
+  position: absolute;
+  top: 210px;
+  left: -30px;
+  border: none;
+  background-color: transparent;
+  background-image: url(../../img/leftbutton.png);
+  background-repeat: no-repeat;
+  background-size: 14px 26px;
+  background-position: center;
+}
+
+.service__button__right{
+  width: 50px;
+  height: 50px;
+  position: absolute;
+  top: 210px;
+  right: -20px;
+  border: none;
+  background-color: transparent;
+  background-image: url(../../img/rightbutton.png);
+  background-repeat: no-repeat;
+  background-size: 14px 26px;
+  background-position: center;
+}
+
+.service__button:hover,.service__button__right:hover{
+  background-color: #fff;
+}
+
+.service__button:active,.service__button__right:active{
+  opacity: 0.6;
+}
+
+.service__text{
+  margin: 0;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 22px;
+  text-align: center;
+  color: #333333;
+}
+
+.service__bottom{
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  width: 1223px;
+  padding: 41px 80px 41px 35px;
+  background-color: #fff;
+  border-radius: 0px 5px 5px 5px;
+}
+
+.bottom__content{
+  margin-left: 67px;
+  width: 610px;
+}
+
+.bottom__title{
+  margin: 0 0 18px;
+  font-weight: 500;
+  font-size: 36px;
+  line-height: 20px;
+  display: flex;
+  align-items: center;
+  color: #333333;
+}
+
+.bottom__text{
+  margin: 0 0 34px;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 20px;
+  color: #949494;
+}
+
+.bottom__linkleft{
+  position: relative;
+  padding: 15px 36px 15px 63px;
+  background-color: #FFBD54;
+  border-radius: 3px;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 21px;
+  color: #FFFFFF;
+  text-decoration: none;
+  &::before{
+    display: block;
+    width: 21px;
+    height: 21px;
+    position: absolute;
+    left: 35px;
+    background-image: url(../img/coin.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    content: '';
+  }
+}
+
+.bottom__linkright{
+  position: relative;
+  margin-left: 21px;
+  text-decoration: none;
+  padding: 15px 37px 15px 64px;
+  background-color: #333333;
+  border-radius: 3px;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 21px;
+  color: #FFFFFF;
+  &::before{
+    display: block;
+    width: 21px;
+    height: 21px;
+    position: absolute;
+    left: 37px;
+    top: 14px;
+    background-image: url(../img/document.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    content: '';
+  }
+}
+
+.bottom__linkleft:hover,.bottom__linkright:hover{
+  opacity: 0.8;
+}
+
+.bottom__linkleft:active,.bottom__linkright:active{
+  opacity: 0.6;
+}
